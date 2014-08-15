@@ -1,6 +1,6 @@
 {
   "name": "aimonb-ip_addr",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "aimonb",
   "summary": "Custom Fact for returning all IP addresses associated with a NIC",
   "license": "Apache 2.0",
