@@ -22,14 +22,7 @@ Facter.add("external_ip_addr") do
     output = `/usr/bin/curl ifconfig.me/ip`
     result = $?.success?
     if output and result
-      regexp = /([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\/[0-9]{1,2})/
-      output.each_line do |line|
-        match = regexp.match(line)
-        if match
-          tmp = "#{tmp},#{match[1]}"
-        end
-      end
-      ip = tmp[1..-1]
+      ip = output
     end
     ip
   end
