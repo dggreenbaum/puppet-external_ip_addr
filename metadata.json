@@ -1,6 +1,6 @@
 {
   "name": "dggreenbaum-external_ip_addr",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "dggreenbaum",
   "summary": "Custom Fact for returning your public ip address as seen by http://ifconfig.me/",
   "license": "Apache 2.0",
