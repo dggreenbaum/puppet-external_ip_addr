@@ -1,6 +1,6 @@
 # == Class: ip_addr
 #
-# Full description of class ip_addr here.
+# Full description of class external_ip_addr here.
 #
 # === Parameters
 #
@@ -35,7 +35,7 @@
 #
 # Copyright 2014 Your name here, unless otherwise noted.
 #
-class ip_addr {
+class external_ip_addr {
 
 
 }

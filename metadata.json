@@ -1,12 +1,12 @@
 {
-  "name": "aimonb-ip_addr",
+  "name": "dggreenbaum-external_ip_addr",
   "version": "1.0.0",
-  "author": "aimonb",
-  "summary": "Custom Fact for returning all IP addresses associated with a NIC",
+  "author": "dggreenbaum",
+  "summary": "Custom Fact for returning your public ip address as seen by http://ifconfig.me/",
   "license": "Apache 2.0",
-  "source": "https://github.com/aimonb/puppet-ip_addr",
-  "project_page": "https://github.com/aimonb/puppet-ip_addr",
-  "issues_url": "https://github.com/aimonb/puppet-ip_addr/issues",
+  "source": "https://github.com/dggreenbaum/puppet-external_ip_addr",
+  "project_page": "https://github.com/dggreenbaum/puppet-external_ip_addr",
+  "issues_url": "https://github.com/dggreenbaum/puppet-external_ip_addr/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
