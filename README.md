@@ -1,16 +1,12 @@
-# ip_addr
+# external_ip_addr
 
 #### Table of Contents
 
 1. [Overview](#overview)
-3. [Setup - The basics of getting started with ip_addr](#setup)
 4. [Limitations - OS compatibility, etc.](#limitations)
 
 ## Overview
-- Type and Provider for managing IP addresses with 'ip addr'
-- Custom Fact for returning all IP addresses associated with a NIC using 'ip addr'
-
-## Setup
+This defines a custom fact for getting your IP address from and external source (http://ifconfig.me/). Thismay be useful for those who are behind NATs who need to know how to direct traffic back to their network.
 
 ## Limitations
 
