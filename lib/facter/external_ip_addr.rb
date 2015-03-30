@@ -15,6 +15,7 @@ require 'facter/util/macaddress'
 
 # Make a fact for the ip address the rest of the world thinks we have.
 Facter.add("external_ip_addr") do
-  confine :kernel => 'Linux'
-  setcode `/usr/bin/curl -s ifconfig.me/ip`
+  setcode do
+    Facter::Core::Execution.exec('/usr/bin/curl -s ifconfig.me/ip')
+  end
 end
